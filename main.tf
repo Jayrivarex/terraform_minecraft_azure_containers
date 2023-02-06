@@ -22,9 +22,6 @@ variable "environment" {
   type    = map
   default = {
     jay_dev  = "dev"
-    jay_qa = "qa"
-    jay_stage = "stage"
-    jay_mds= "mds"
     jay_prod= "prod"
   }
 }
